@@ -265,8 +265,12 @@ UsedLibraryUrn="urn:adsk.eagle:library:196"
 UsedLibraryUrn="urn:adsk.eagle:library:197"
 UsedLibraryUrn="urn:adsk.eagle:library:198"
 UsedLibraryUrn="urn:adsk.eagle:library:199"
+UsedLibrary="/home/rubix/EAGLE/libraries/ISM330DHCXTR.lbr"
 
 [Win_1]
+Number=2
+
+[Win_2]
 Type="Schematic Editor"
 Number=1
 File="gyro.sch"
@@ -309,9 +313,17 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
+Views=" 1: -155.176 -185.791 507.397 240.149"
 Sheet="1"
 
-[Win_2]
+[Win_3]
+Type="Text Editor"
+Number=3
+File="/home/rubix/EAGLE/scripts/eagle.scr"
+CursorPos="26 19"
+Font="Artifakt Element Book,-1,12,5,50,0,0,0,0,0"
+
+[Win_4]
 Type="Control Panel"
 Number=0
 
@@ -319,3 +331,5 @@ Number=0
 Screen="3000 1920"
 Window="Win_1"
 Window="Win_2"
+Window="Win_3"
+Window="Win_4"
