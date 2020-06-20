@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<library>
+<description>&lt;b&gt;https://eagle.componentsearchengine.com&lt;/b&gt;&lt;p&gt;&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+ <package name="194280004">
+  <description>&lt;b>19428-0004-1&lt;/b>&lt;br>&#xd;
+</description>
+  <pad name="1" y="0.000" x="0.000" drill="1.6" diameter="2.400"/>
+  <pad name="2" y="0.000" x="5.840" drill="1.6" diameter="2.400"/>
+  <pad name="3" y="0.000" x="11.680" drill="1.6" diameter="2.400"/>
+  <pad name="4" y="-6.000" x="0.000" drill="1.6" diameter="2.400"/>
+  <pad name="5" y="-6.000" x="5.840" drill="1.6" diameter="2.400"/>
+  <pad name="6" y="-6.000" x="11.680" drill="1.6" diameter="2.400"/>
+  <hole y="-3.000" x="-15.115" drill="3.2"/>
+  <hole y="-3.000" x="26.795" drill="4.86"/>
+  <text y="-2.027" size="1.27" rot="R0" x="5.840" align="center" layer="25">>NAME</text>
+  <text y="-2.027" size="1.27" rot="R0" x="5.840" align="center" layer="27">>VALUE</text>
+  <wire width="0.2" y2="11.605" y1="11.605" x1="-20.2" x2="31.88" layer="51"/>
+  <wire width="0.2" y2="-17.605" y1="11.605" x1="31.88" x2="31.88" layer="51"/>
+  <wire width="0.2" y2="-17.605" y1="-17.605" x1="31.88" x2="-20.2" layer="51"/>
+  <wire width="0.2" y2="11.605" y1="-17.605" x1="-20.2" x2="-20.2" layer="51"/>
+  <wire width="0.1" y2="11.605" y1="11.605" x1="-20.2" x2="31.88" layer="21"/>
+  <wire width="0.1" y2="-17.605" y1="11.605" x1="31.88" x2="31.88" layer="21"/>
+  <wire width="0.1" y2="-17.605" y1="-17.605" x1="31.88" x2="-20.2" layer="21"/>
+  <wire width="0.1" y2="11.605" y1="-17.605" x1="-20.2" x2="-20.2" layer="21"/>
+  <wire width="0.1" y2="14.55" y1="14.55" x1="-21.2" x2="32.88" layer="51"/>
+  <wire width="0.1" y2="-18.605" y1="14.55" x1="32.88" x2="32.88" layer="51"/>
+  <wire width="0.1" y2="-18.605" y1="-18.605" x1="32.88" x2="-21.2" layer="51"/>
+  <wire width="0.1" y2="14.55" y1="-18.605" x1="-21.2" x2="-21.2" layer="51"/>
+  <wire width="0.8" y2="13.5" y1="13.5" x1="-1.66" x2="-1.66" layer="21"/>
+  <wire width="0.8" y2="13.500" y1="13.500" x1="-1.660" x2="-1.760" curve="180.0" layer="21"/>
+  <wire width="0.8" y2="13.5" y1="13.5" x1="-1.76" x2="-1.76" layer="21"/>
+  <wire width="0.8" y2="13.500" y1="13.500" x1="-1.760" x2="-1.660" curve="180.0" layer="21"/>
+ </package>
+</packages>
+<symbols>
+ <symbol name="19428-0004">
+  <wire width="0.254" y2="2.54" y1="2.54" x1="5.08" x2="15.24" layer="94"/>
+  <wire width="0.254" y2="2.54" y1="-7.62" x1="15.24" x2="15.24" layer="94"/>
+  <wire width="0.254" y2="-7.62" y1="-7.62" x1="15.24" x2="5.08" layer="94"/>
+  <wire width="0.254" y2="-7.62" y1="2.54" x1="5.08" x2="5.08" layer="94"/>
+  <text y="7.62" size="1.778" x="16.51" align="center-left" layer="95">>NAME</text>
+  <text y="5.08" size="1.778" x="16.51" align="center-left" layer="96">>VALUE</text>
+  <pin name="1" y="0" rot="R180" x="20.32" direction="io" length="middle"/>
+  <pin name="2" y="-2.54" rot="R180" x="20.32" direction="io" length="middle"/>
+  <pin name="3" y="-5.08" rot="R180" x="20.32" direction="io" length="middle"/>
+  <pin name="4" y="0" rot="R0" x="0" direction="io" length="middle"/>
+  <pin name="5" y="-2.54" rot="R0" x="0" direction="io" length="middle"/>
+  <pin name="6" y="-5.08" rot="R0" x="0" direction="io" length="middle"/>
+ </symbol>
+</symbols>
+<devicesets>
+ <deviceset name="19428-0004" prefix="J">
+  <description>&lt;b>Automotive Connectors&lt;/b>&lt;p>&#xd;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/19428-0004.pdf"> Datasheet &lt;/a></description>
+  <gates>
+   <gate name="G$1" y="0" x="0" symbol="19428-0004"/>
+  </gates>
+  <devices>
+   <device name="" package="194280004">
+    <connects>
+     <connect pin="1" gate="G$1" pad="1"/>
+     <connect pin="2" gate="G$1" pad="2"/>
+     <connect pin="3" gate="G$1" pad="3"/>
+     <connect pin="4" gate="G$1" pad="4"/>
+     <connect pin="5" gate="G$1" pad="5"/>
+     <connect pin="6" gate="G$1" pad="6"/>
+    </connects>
+    <technologies>
+     <technology name="">
+      <attribute constant="no" name="Manufacturer_Name" value="Molex"/>
+      <attribute constant="no" name="Manufacturer_Part_Number" value="19428-0004"/>
+      <attribute constant="no" name="Arrow_Part_Number" value="19428-0004"/>
+      <attribute constant="no" name="Arrow_Price-Stock" value=""/>
+      <attribute constant="no" name="Mouser_Part_Number" value="538-19428-0004"/>
+      <attribute constant="no" name="Mouser_Price-Stock" value="https://www.mouser.co.uk/ProductDetail/Molex/19428-0004?qs=l0xbah4rxIfd5Eogy17VMg%3D%3D"/>
+      <attribute constant="no" name="Description" value="Automotive Connectors"/>
+      <attribute constant="no" name="Height" value="40.04mm"/>
+     </technology>
+    </technologies>
+   </device>
+  </devices>
+ </deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

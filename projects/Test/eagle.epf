@@ -265,19 +265,12 @@ UsedLibraryUrn="urn:adsk.eagle:library:196"
 UsedLibraryUrn="urn:adsk.eagle:library:197"
 UsedLibraryUrn="urn:adsk.eagle:library:198"
 UsedLibraryUrn="urn:adsk.eagle:library:199"
+UsedLibrary="/home/rubix/EAGLE/libraries/ISM330DHCXTR.lbr"
 
 [Win_1]
-Type="Text Editor"
-Number=3
-File="/home/rubix/Downloads/eagle-9.6.2/examples/ulps/examples/samacsys.ulp"
-CursorPos="5 0"
-Font="Artifakt Element Book,-1,12,5,50,0,0,0,0,0"
-
-[Win_2]
 Type="Control Panel"
 Number=0
 
 [Desktop]
 Screen="3000 1920"
 Window="Win_1"
-Window="Win_2"
