@@ -1,2 +1,2 @@
 # Eagle_GTOR
-GTOR Custom IMU for PCB
+Custom PCB For Inertial Measurement Unit (IMU) 
