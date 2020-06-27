@@ -308,7 +308,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default">
+<designrules name="default *">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -326,10 +326,10 @@ design rules under a new name.</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="6mil"/>
-<param name="mdWirePad" value="6mil"/>
-<param name="mdWireVia" value="6mil"/>
-<param name="mdPadPad" value="6mil"/>
+<param name="mdWireWire" value="10mil"/>
+<param name="mdWirePad" value="9.5mil"/>
+<param name="mdWireVia" value="10mil"/>
+<param name="mdPadPad" value="9.5mil"/>
 <param name="mdPadVia" value="6mil"/>
 <param name="mdViaVia" value="6mil"/>
 <param name="mdSmdPad" value="6mil"/>
@@ -340,7 +340,7 @@ design rules under a new name.</description>
 <param name="mdCopperDimension" value="40mil"/>
 <param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="6mil"/>
+<param name="msWidth" value="9.5mil"/>
 <param name="msDrill" value="0.35mm"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
@@ -497,22 +497,22 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="CAP-00810" x="-16.256" y="56.642" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-1.016" y="21.844" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="C2" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="0" y="22.86" smashed="yes" rot="R180">
-<attribute name="NAME" x="0" y="22.098" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-00810" x="-19.05" y="58.42" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="0" y="23.622" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<element name="C2" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="2.2225" y="22.5425" smashed="yes" rot="R180">
+<attribute name="NAME" x="2.2225" y="21.7805" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-00810" x="-16.8275" y="58.1025" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="2.2225" y="23.3045" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="IC1" library="ISM330DHCXTR" package="LGA-14(2.5X3X0.86)" value="ISM330DHCXTR" x="2.54" y="20.32" smashed="yes" rot="R180">
-<attribute name="ARROW_PART_NUMBER" value="ISM330DHCXTR" x="-33.02" y="55.88" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/ism330dhcxtr/stmicroelectronics" x="-33.02" y="55.88" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="IMUs - Inertial Measurement Units VFLGA2.5X3X.86 14L P.5 L.475X.25" x="-33.02" y="55.88" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="mm" x="-33.02" y="55.88" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="STMicroelectronics" x="-33.02" y="55.88" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ISM330DHCXTR" x="-33.02" y="55.88" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="511-ISM330DHCXTR" x="-33.02" y="55.88" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ISM330DHCXTR?qs=%252B6g0mu59x7Jv2Xps2dM6Xw%3D%3D" x="-33.02" y="55.88" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="2.83" y="20.314" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="VALUE" x="15.53" y="19.044" size="1.27" layer="27" rot="R180" align="center"/>
+<element name="IC1" library="ISM330DHCXTR" package="LGA-14(2.5X3X0.86)" value="ISM330DHCXTR" x="2.2225" y="20.32" smashed="yes" rot="R180">
+<attribute name="ARROW_PART_NUMBER" value="ISM330DHCXTR" x="-33.3375" y="55.88" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/ism330dhcxtr/stmicroelectronics" x="-33.3375" y="55.88" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="IMUs - Inertial Measurement Units VFLGA2.5X3X.86 14L P.5 L.475X.25" x="-33.3375" y="55.88" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="mm" x="-33.3375" y="55.88" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="STMicroelectronics" x="-33.3375" y="55.88" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ISM330DHCXTR" x="-33.3375" y="55.88" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="511-ISM330DHCXTR" x="-33.3375" y="55.88" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ISM330DHCXTR?qs=%252B6g0mu59x7Jv2Xps2dM6Xw%3D%3D" x="-33.3375" y="55.88" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="3.1475" y="22.5365" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="VALUE" x="21.245" y="19.044" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="J1" library="SamacSys_Parts" package="194280004" value="19428-0004" x="7.62" y="10.16" smashed="yes" rot="R180">
 <attribute name="ARROW_PART_NUMBER" value="19428-0004" x="-38.1" y="29.21" size="1.778" layer="27" rot="R180" display="off"/>
@@ -523,18 +523,18 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="19428-0004" x="-38.1" y="29.21" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="538-19428-0004" x="-38.1" y="29.21" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Molex/19428-0004?qs=l0xbah4rxIfd5Eogy17VMg%3D%3D" x="-38.1" y="29.21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="1.78" y="12.187" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="VALUE" x="1.78" y="12.187" size="1.27" layer="27" rot="R180" align="center"/>
+<attribute name="NAME" x="4.8845" y="16" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="15.997" y="14.095" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
-<element name="R1" library="SparkFun-Resistors" package="0603" value="10k" x="5.715" y="13.6525" smashed="yes" rot="R270">
-<attribute name="NAME" x="6.477" y="13.6525" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-00824" x="-29.845" y="-9.2075" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="4.953" y="13.6525" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<element name="R1" library="SparkFun-Resistors" package="0603" value="10k" x="5.7785" y="13.589" smashed="yes" rot="R270">
+<attribute name="NAME" x="6.5405" y="13.589" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-00824" x="-29.7815" y="-9.271" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="15.494" y="13.589" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R2" library="SparkFun-Resistors" package="0603" value="10k" x="3.81" y="13.6525" smashed="yes" rot="R270">
-<attribute name="NAME" x="4.572" y="13.6525" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-00824" x="-31.75" y="-13.0175" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="3.048" y="13.6525" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<element name="R2" library="SparkFun-Resistors" package="0603" value="10k" x="3.4925" y="13.589" smashed="yes" rot="R270">
+<attribute name="NAME" x="4.8895" y="12.319" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-00824" x="-32.0675" y="-13.081" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="2.7305" y="13.589" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 </elements>
 <signals>
@@ -542,13 +542,17 @@ design rules under a new name.</description>
 <contactref element="J1" pad="1"/>
 <contactref element="IC1" pad="14"/>
 <contactref element="R1" pad="1"/>
-<wire x1="5.715" y1="14.5025" x2="3.04" y2="19.4075" width="0" layer="19" extent="1-1"/>
-<wire x1="7.62" y1="10.16" x2="5.715" y2="14.5025" width="0" layer="19" extent="1-1"/>
+<wire x1="2.7225" y1="19.4075" x2="5.7785" y2="16.3515" width="0.2413" layer="1"/>
+<wire x1="5.7785" y1="16.3515" x2="5.7785" y2="14.439" width="0.2413" layer="1"/>
+<wire x1="5.7785" y1="14.439" x2="7.62" y2="12.5975" width="0.2413" layer="1"/>
+<wire x1="7.62" y1="12.5975" x2="7.62" y2="10.16" width="0.2413" layer="1"/>
 </signal>
 <signal name="CS">
 <contactref element="J1" pad="3"/>
 <contactref element="IC1" pad="12"/>
-<wire x1="-4.06" y1="10.16" x2="2.04" y2="19.4075" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.06" y1="13.575625" x2="-4.06" y2="10.16" width="0.2413" layer="1"/>
+<wire x1="1.65945" y1="19.295075" x2="-4.06" y2="13.575625" width="0.254" layer="1"/>
+<wire x1="1.65945" y1="19.295075" x2="1.7225" y2="19.4075" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="J1" pad="6"/>
@@ -566,6 +570,12 @@ design rules under a new name.</description>
 <vertex x="29.21" y="5.08"/>
 <vertex x="29.21" y="27.94"/>
 </polygon>
+<wire x1="1.3725" y1="22.5425" x2="1.7225" y2="22.1925" width="0.2413" layer="1"/>
+<wire x1="1.7225" y1="22.1925" x2="1.7225" y2="21.2325" width="0.2413" layer="1"/>
+<wire x1="-1.727875" y1="21.082" x2="-1.866" y2="21.082" width="0.2413" layer="1"/>
+<wire x1="-1.866" y1="21.082" x2="-1.866" y2="18.354" width="0.254" layer="1"/>
+<wire x1="-1.866" y1="18.354" x2="-4.06" y2="16.16" width="0.2413" layer="1"/>
+<wire x1="1.06" y1="20.57" x2="-1.727875" y2="21.082" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3V3">
 <contactref element="J1" pad="5"/>
@@ -575,17 +585,42 @@ design rules under a new name.</description>
 <contactref element="C1" pad="1"/>
 <contactref element="IC1" pad="5"/>
 <contactref element="C2" pad="1"/>
-<wire x1="1.3775" y1="21.07" x2="3.04" y2="21.2325" width="0" layer="19" extent="1-1"/>
-<wire x1="-0.166" y1="21.082" x2="1.3775" y2="21.07" width="0" layer="19" extent="1-1"/>
-<wire x1="0.85" y1="22.86" x2="1.3775" y2="21.07" width="0" layer="19" extent="1-1"/>
-<wire x1="1.78" y1="16.16" x2="1.3775" y2="21.07" width="0" layer="19" extent="1-1"/>
-<wire x1="3.81" y1="12.8025" x2="1.78" y2="16.16" width="0" layer="19" extent="1-1"/>
-<wire x1="5.715" y1="12.8025" x2="3.81" y2="12.8025" width="0" layer="19" extent="1-1"/>
+<wire x1="3.0725" y1="22.5425" x2="3.0725" y2="21.7932" width="0.2413" layer="1"/>
+<wire x1="-0.166" y1="21.082" x2="1.048" y2="21.082" width="0.2413" layer="1"/>
+<wire x1="0" y1="22.7838" x2="0" y2="21.2979" width="0.2413" layer="1"/>
+<wire x1="0.74295" y1="23.52675" x2="0" y2="22.7838" width="0.2413" layer="1"/>
+<wire x1="2.22885" y1="23.52675" x2="0.74295" y2="23.52675" width="0.2413" layer="1"/>
+<wire x1="2.9718" y1="22.7838" x2="2.22885" y2="23.52675" width="0.2413" layer="1"/>
+<wire x1="0" y1="21.2979" x2="-0.166" y2="21.082" width="0.2413" layer="1"/>
+<wire x1="2.9718" y1="22.7838" x2="3.0725" y2="22.5425" width="0.2413" layer="1"/>
+<wire x1="5.69595" y1="12.8778" x2="3.71475" y2="12.8778" width="0.2413" layer="1"/>
+<wire x1="3.71475" y1="12.8778" x2="3.4925" y2="12.739" width="0.2413" layer="1"/>
+<wire x1="5.69595" y1="12.8778" x2="5.7785" y2="12.739" width="0.2413" layer="1"/>
+<wire x1="3.7211" y1="16.09725" x2="4.59905" y2="15.2193" width="0.2413" layer="1"/>
+<wire x1="1.9812" y1="16.09725" x2="3.7211" y2="16.09725" width="0.2413" layer="1"/>
+<wire x1="4.59105" y1="21.7932" x2="3.0725" y2="21.7932" width="0.2413" layer="1"/>
+<wire x1="9.4107" y1="16.97355" x2="4.59105" y2="21.7932" width="0.2413" layer="1"/>
+<wire x1="9.4107" y1="9.65835" x2="9.4107" y2="16.97355" width="0.2413" layer="1"/>
+<wire x1="8.17245" y1="8.4201" x2="9.4107" y2="9.65835" width="0.2413" layer="1"/>
+<wire x1="6.9342" y1="8.4201" x2="8.17245" y2="8.4201" width="0.2413" layer="1"/>
+<wire x1="5.9436" y1="9.4107" x2="6.9342" y2="8.4201" width="0.2413" layer="1"/>
+<wire x1="5.9436" y1="12.63015" x2="5.9436" y2="9.4107" width="0.2413" layer="1"/>
+<wire x1="3.0725" y1="21.7932" x2="2.9718" y2="21.7932" width="0.2413" layer="1"/>
+<wire x1="5.9436" y1="12.63015" x2="5.7785" y2="12.739" width="0.2413" layer="1"/>
+<wire x1="4.59905" y1="15.2193" x2="4.59905" y2="14.056575" width="0.2413" layer="1"/>
+<wire x1="5.7785" y1="12.877125" x2="5.7785" y2="12.739" width="0.2413" layer="1"/>
+<wire x1="4.59905" y1="14.056575" x2="5.7785" y2="12.877125" width="0.2413" layer="1"/>
+<wire x1="2.9718" y1="21.7932" x2="2.7225" y2="21.5439" width="0.2413" layer="1"/>
+<wire x1="2.7225" y1="21.5439" x2="2.7225" y2="21.2325" width="0.2413" layer="1"/>
+<wire x1="1.048" y1="21.082" x2="1.06" y2="21.07" width="0" layer="19" extent="1-1"/>
+<wire x1="1.78" y1="16.16" x2="1.9812" y2="16.09725" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDO">
 <contactref element="J1" pad="4"/>
 <contactref element="IC1" pad="1"/>
-<wire x1="3.7025" y1="19.57" x2="7.62" y2="16.16" width="0" layer="19" extent="1-1"/>
+<wire x1="3.385" y1="19.57" x2="5.48" y2="19.57" width="0.2413" layer="1"/>
+<wire x1="7.62" y1="17.43" x2="5.48" y2="19.57" width="0.2413" layer="1"/>
+<wire x1="7.62" y1="17.43" x2="7.62" y2="16.16" width="0.2413" layer="1"/>
 </signal>
 <signal name="NC1">
 <contactref element="IC1" pad="11"/>
@@ -594,8 +629,19 @@ design rules under a new name.</description>
 <contactref element="J1" pad="2"/>
 <contactref element="IC1" pad="13"/>
 <contactref element="R2" pad="1"/>
-<wire x1="3.81" y1="14.5025" x2="2.54" y2="19.4075" width="0" layer="19" extent="1-1"/>
-<wire x1="1.78" y1="10.16" x2="3.81" y2="14.5025" width="0" layer="19" extent="1-1"/>
+<wire x1="2.2225" y1="19.4075" x2="2.2272" y2="19.4028" width="0.2413" layer="1"/>
+<wire x1="2.2225" y1="19.4075" x2="2.23555" y2="19.39445" width="0.2413" layer="1"/>
+<wire x1="1.9812" y1="12.8778" x2="3.4671" y2="14.3637" width="0.2413" layer="1"/>
+<wire x1="1.9812" y1="10.4013" x2="1.9812" y2="12.8778" width="0.2413" layer="1"/>
+<wire x1="3.4671" y1="14.3637" x2="3.4925" y2="14.439" width="0.2413" layer="1"/>
+<wire x1="0.02755" y1="15.44951875" x2="0.87901875" y2="14.59805" width="0.2413" layer="1"/>
+<wire x1="3.4925" y1="14.439" x2="3.33345" y2="14.59805" width="0.2413" layer="1"/>
+<wire x1="3.33345" y1="14.59805" x2="0.87901875" y2="14.59805" width="0.2413" layer="1"/>
+<wire x1="2.2272" y1="19.39445" x2="2.2272" y2="19.13363125" width="0.2413" layer="1"/>
+<wire x1="2.2272" y1="19.13363125" x2="0.02755" y2="16.93398125" width="0.2413" layer="1"/>
+<wire x1="0.02755" y1="16.93398125" x2="0.02755" y2="15.44951875" width="0.2413" layer="1"/>
+<wire x1="2.2272" y1="19.39445" x2="2.2225" y2="19.4075" width="0" layer="19" extent="1-1"/>
+<wire x1="1.78" y1="10.16" x2="1.9812" y2="10.4013" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NC2">
 <contactref element="IC1" pad="10"/>
